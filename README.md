@@ -3,9 +3,9 @@
 > A high-performance, local-first restaurant template built with **JsonPages**.
 > **Zero Runtime Overhead. 100% Type-Safe.**
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jsonpages/radice-template)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/jsonpages/tenant-radice)
 
-![Radice Preview](https://raw.githubusercontent.com/jsonpages/radice-template/main/public/assets/preview-hero.jpg)
+![Radice Preview](https://raw.githubusercontent.com/jsonpages/tenant-radice/main/public/assets/preview-hero.jpg)
 
 ## ✨ Features
 
