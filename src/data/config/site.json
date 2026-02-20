@@ -1,0 +1,50 @@
+{
+  "identity": {
+    "title": "Radice",
+    "logoUrl": "/logo.svg"
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "label": "Home"
+    }
+  ],
+  "header": {
+    "id": "global-header",
+    "type": "header",
+    "data": {
+      "logoText": "Radice",
+      "logoHighlight": "",
+      "logoIconText": "🌿"
+    },
+    "settings": {
+      "sticky": true
+    }
+  },
+  "footer": {
+    "id": "global-footer",
+    "type": "footer",
+    "data": {
+      "brandText": "Radice",
+      "brandHighlight": "",
+      "copyright": "© 2026 Radice — Michelin Green Star. All rights reserved.",
+      "links": [
+        {
+          "label": "Privacy Policy",
+          "href": "/privacy.html"
+        },
+        {
+          "label": "Contact",
+          "href": "#prenota"
+        },
+        {
+          "label": "Instagram",
+          "href": "#"
+        }
+      ]
+    },
+    "settings": {
+      "showLogo": true
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "slug": "home",
+  "meta": {
+    "title": "Radice — Michelin Green Star Dining",
+    "description": "Hyper-seasonal, zero-waste fine dining. Where nature dictates the menu."
+  },
+  "sections": [
+    {
+      "id": "hero-main",
+      "type": "hero",
+      "data": {
+        "badge": "★ Michelin Green Star 2025",
+        "title": "Radice.",
+        "titleHighlight": "The Earth, Plated.",
+        "description": "A culinary dialogue between the soil and the chef. Hyper-seasonal, zero-waste, and unapologetically authentic.",
+        "backgroundImage": {
+          "url": "/assets/images/1771597331337-hero.jpg",
+          "alt": "Radice dining room atmosphere"
+        },
+        "ctas": [
+          {
+            "id": "cta-prenota",
+            "label": "Secure a Table",
+            "href": "#prenota",
+            "variant": "primary"
+          },
+          {
+            "id": "cta-menu",
+            "label": "View Tasting Menu",
+            "href": "#menu",
+            "variant": "secondary"
+          }
+        ],
+        "metrics": [
+          {
+            "id": "m-km",
+            "val": "< 30 km",
+            "label": "Foraging Radius"
+          },
+          {
+            "id": "m-bio",
+            "val": "100%",
+            "label": "Organic Matter"
+          },
+          {
+            "id": "m-waste",
+            "val": "Zero",
+            "label": "Waste Protocol"
+          }
+        ]
+      }
+    },
+    {
+      "id": "section-filosofia",
+      "type": "philosophy",
+      "data": {
+        "anchorId": "filosofia",
+        "label": "Our Ethos",
+        "title": "Cooking is an act of submission.",
+        "quote": "We do not choose the ingredients. The soil dictates, we merely obey.",
+        "quoteHighlightWord": "The soil",
+        "description": "Chef Marco Ferretti built Radice on a radical premise: silence the ego and listen to the land. Every morning, the menu is rewritten based on the harvest, the weather, and the raw truth of the season.",
+        "image": {
+          "url": "/assets/images/1771598502228-Firefly_a_photo_of_the_young_male_chef_of_a_michelin_green_star_restaurant_in_the_act_of_cook_954770.png",
+          "alt": "Firefly_a photo of the young male chef of a michelin green star restaurant in the act of cook 954770.png"
+        },
+        "imageAlt": "Chef Marco Ferretti inspecting produce"
+      }
+    },
+    {
+      "id": "break-orto",
+      "type": "image-break",
+      "data": {
+        "image": {
+          "url": "/assets/images/1771599023714-Generated_Image_February_20__2026_-_3_49PM.jpeg",
+          "alt": "Generated Image February 20, 2026 - 3_49PM.jpeg"
+        },
+        "imageAlt": "Radice private garden at dawn",
+        "caption": "06:00 AM. The morning harvest at our private estate."
+      },
+      "settings": {
+        "height": "md"
+      }
+    },
+    {
+      "id": "section-valori",
+      "type": "feature-grid",
+      "data": {
+        "anchorId": "valori",
+        "sectionTitle": "The Four Pillars",
+        "cards": [
+          {
+            "id": "val-km0",
+            "emoji": "🌱",
+            "title": "Hyper-Local",
+            "description": "We know the hands that harvest. Every ingredient is sourced within a 30km radius, supporting the micro-economy of our valley."
+          },
+          {
+            "id": "val-stagioni",
+            "emoji": "🍂",
+            "title": "Radical Seasonality",
+            "description": "If it's not growing outside right now, it's not on your plate. We don't force nature; we follow its rhythm."
+          },
+          {
+            "id": "val-waste",
+            "emoji": "♻️",
+            "title": "Circular Kitchen",
+            "description": "Root to stem. Nose to tail. Fermentation, composting, and creative reuse ensure nothing is ever lost."
+          },
+          {
+            "id": "val-bio",
+            "emoji": "🐝",
+            "title": "Heirloom Guardians",
+            "description": "We cultivate forgotten varieties in our private garden, protecting the biodiversity and flavors that time forgot."
+          }
+        ]
+      },
+      "settings": {
+        "columns": 2,
+        "cardStyle": "bordered"
+      }
+    },
+    {
+      "id": "section-menu",
+      "type": "menu-showcase",
+      "data": {
+        "anchorId": "menu",
+        "sectionLabel": "Tasting Experience",
+        "title": "The Root Path",
+        "subtitle": "Seven acts of nature. A sensory journey through the textures of our terroir.",
+        "image": {
+          "url": "/assets/images/1771598312886-Firefly_a_tasting_menu_photo_with_multiple_plates_for_a_michelin_green_star_restaurant__detai_954770.png",
+          "alt": "Firefly_a tasting menu photo with multiple plates for a michelin green star restaurant, detai 954770.png"
+        },
+        "imageAlt": "Plated dish from the tasting menu",
+        "courses": [
+          {
+            "id": "c-1",
+            "label": "Amuse-bouche",
+            "name": "Garden Welcome",
+            "description": "Jerusalem artichoke textures. Parsley chlorophyll. Hazelnut dust.",
+            "tag": "Estate Harvest"
+          },
+          {
+            "id": "c-2",
+            "label": "Starter",
+            "name": "The 63°C Egg",
+            "description": "Organic farm egg. Castelmagno DOP fondue. Summer truffle shavings. Puffed rye.",
+            "tag": "Local Dairy"
+          },
+          {
+            "id": "c-3",
+            "label": "First Course",
+            "name": "Hay Infused Risotto",
+            "description": "Aged Carnaroli rice. Alpine butter. Infusion of fresh hay. Wild foraged herbs.",
+            "tag": "Signature Dish"
+          },
+          {
+            "id": "c-4",
+            "label": "Fish",
+            "name": "Mountain Stream Trout",
+            "description": "Marinated Fario trout. Celeriac velvet. Wild fennel oil. Lake bottarga.",
+            "tag": "Wild Caught"
+          },
+          {
+            "id": "c-5",
+            "label": "Meat",
+            "name": "Ancient Fassona",
+            "description": "Piedmontese Fassona beef. 45-day dry age. Glazed winter roots. Pomegranate jus.",
+            "tag": "Ethical Breed"
+          },
+          {
+            "id": "c-6",
+            "label": "Pre-dessert",
+            "name": "Botanical Sorbet",
+            "description": "Amalfi Lemon & Basil. Cucumber gel. Garden mint essence.",
+            "tag": "Palate Cleanser"
+          },
+          {
+            "id": "c-7",
+            "label": "Dessert",
+            "name": "Earth & Cocoa",
+            "description": "Beetroot mousse. Domori chocolate. Bourbon vanilla cream. Spelt crumble.",
+            "tag": "Sweet Earth"
+          }
+        ],
+        "footerNote": "Menu changes daily based on availability. Please inform us of any allergies upon reservation."
+      },
+      "settings": {
+        "layout": "list"
+      }
+    },
+    {
+      "id": "section-prenota",
+      "type": "cta-banner",
+      "data": {
+        "anchorId": "prenota",
+        "label": "Reservations",
+        "title": "Experience Radice",
+        "description": "Tuesday to Saturday. Dinner service only. Limited seating to ensure intimacy and attention.",
+        "backgroundImage": {
+          "url": "/assets/images/1771598125734-Firefly_Flux_a_michelin_green_star_restaurant_interior__detail__fine_dining__954770.jpg",
+          "alt": "Firefly_Flux_a michelin green star restaurant interior, detail. fine dining. 954770.jpg"
+        },
+        "ctas": [
+          {
+            "id": "cta-tel",
+            "label": "Call: +39 011 234 5678",
+            "href": "tel:+390112345678",
+            "variant": "primary"
+          },
+          {
+            "id": "cta-mail",
+            "label": "info@radice-restaurant.com",
+            "href": "mailto:info@radice-restaurant.com",
+            "variant": "secondary"
+          }
+        ]
+      }
+    }
+  ]
+}

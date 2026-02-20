@@ -1,0 +1,21 @@
+{
+  "main": [
+    {
+      "label": "Ethos",
+      "href": "#filosofia"
+    },
+    {
+      "label": "Pillars",
+      "href": "#valori"
+    },
+    {
+      "label": "Menu",
+      "href": "#menu"
+    },
+    {
+      "label": "Reserve",
+      "href": "#prenota",
+      "isCta": true
+    }
+  ]
+}

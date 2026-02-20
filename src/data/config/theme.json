@@ -1,0 +1,28 @@
+{
+  "name": "Radice — Bianco",
+  "tokens": {
+    "colors": {
+      "primary": "#2d6a4f",
+      "secondary": "#40916c",
+      "accent": "#c8a06e",
+      "background": "#fafaf7",
+      "surface": "#f3f1ec",
+      "surfaceAlt": "#ebe8e1",
+      "text": "#1a1a1a",
+      "textMuted": "#6b6b5e",
+      "border": "#e0ddd5"
+    },
+    "typography": {
+      "fontFamily": {
+        "primary": "'Instrument Sans', system-ui, sans-serif",
+        "mono": "'JetBrains Mono', monospace",
+        "display": "'Playfair Display', Georgia, serif"
+      }
+    },
+    "borderRadius": {
+      "sm": "4px",
+      "md": "6px",
+      "lg": "8px"
+    }
+  }
+}
