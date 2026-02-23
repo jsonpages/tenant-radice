@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@jsonpages/core": "^1.0.19",
+    "@jsonpages/core": "^1.0.27",
     "clsx": "^2.1.1",
     "file-saver": "^2.0.5",
     "jszip": "^3.10.1",
