@@ -49,7 +49,11 @@ function App() {
       .then((list: LibraryImageEntry[]) => setAssetsManifest(Array.isArray(list) ? list : []))
       .catch(() => setAssetsManifest([]));
   }, []);
-
+  
+console.log("🔍 DEBUG ENV:", {
+  URL: import.meta.env.VITE_JSONPAGES_CLOUD_URL,
+  KEY: import.meta.env.VITE_JSONPAGES_API_KEY ? "PRESENT" : "MISSING"
+});
   const config: JsonPagesConfig = {
     tenantId: TENANT_ID,
     registry: ComponentRegistry as JsonPagesConfig['registry'],
